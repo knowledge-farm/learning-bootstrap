@@ -27,7 +27,7 @@ function compileSass() {
                 outputStyle: 'compressed'
             }
         ).on('error', sass.logError))
-        .pipe(gulp.dest('./dist/css/main.css'))
+        .pipe(gulp.dest('./dist/css/'))
         .pipe(browserSync.stream());
 }
 
