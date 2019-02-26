@@ -1,0 +1,15 @@
+.hero{
+    display: table;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+    background: url('../../../img/mountains.jpeg') no-repeat center center fixed;
+    background-size: cover;
+
+    & .text-box{
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+    }
+}
